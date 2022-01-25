@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!--注释方法
+xml声明
+version是版本的意思
+encoding是编码
+standalone="yes/no" 表示这个 xml 文件是否是独立的 xml 文件
+-->
+<people>            <!--命名空间-->
+    <person id = "01">          <!--person为标签名-->
+        <name>张三</name>
+        <address>10 dowing street,london,uk</address>
+        <tel>12345678</tel>
+        <fax>87654321</fax>
+        <email>张三@163.com</email>
+    </person>
+    <person id = "02">
+        <name>李四</name>
+        <address>20 dowing street,london,uk</address>
+        <tel>asdfghjk</tel>
+        <fax>kjhgfdsa</fax>
+        <email>李四@163.com</email>
+    </person>
+</people>
